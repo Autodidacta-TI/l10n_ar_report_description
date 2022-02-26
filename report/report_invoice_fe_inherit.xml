@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="report_fe_invoice_document_inherit" inherit_id="l10n_ar_report_fe.report_fe_invoice_document">
+        <xpath expr="//table[@class='table table-condensed']//th[1]" position="replace">        
+        </xpath>
+        <xpath expr="//table[@class='table table-condensed']//tbody[@class='invoice_tbody']//td[1]" position="replace">
+        </xpath>
+        <xpath expr="//table[@class='table table-condensed']//th[@class='hidden']" position="replace">
+            <th class="hidden" style="border: solid 1px #000;padding: 8px;">Descripcion</th>           
+        </xpath>
+        <xpath expr="//table[@class='table table-condensed']//tbody[@class='invoice_tbody']//td[@class='hidden']" position="replace">
+            <td style="padding: 5px;" class="hidden"><span t-field="l.name"/></td>
+        </xpath>
+    </template>
+
+</odoo>
