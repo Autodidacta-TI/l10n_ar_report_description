@@ -6,6 +6,10 @@
         </xpath>
         <xpath expr="//table[@class='table table-condensed']//tbody[@class='invoice_tbody']//td[1]" position="replace">
         </xpath>
+        <xpath expr="//table[@class='table table-condensed']//th[1]" position="replace">        
+        </xpath>
+        <xpath expr="//table[@class='table table-condensed']//tbody[@class='invoice_tbody']//td[1]" position="replace">
+        </xpath>
         <xpath expr="//table[@class='table table-condensed']//th[@class='hidden']" position="replace">
             <th class="hidden" style="border: solid 1px #000;padding: 8px;">Descripcion</th>           
         </xpath>
